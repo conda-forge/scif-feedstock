@@ -1,5 +1,5 @@
 {% set name = "scif" %}
-{% set version = "0.0.77" %}
+{% set version = "0.0.78" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f28c6e52df619b380a32b3de133b297f6a2d7f54f566109f66659cd0c9e71698
+  sha256: 9e3586e0ed0cae84f28af08f6fc444088e7378cea25044c04b3e17fe8502fd33
 
 build:
   number: 0
