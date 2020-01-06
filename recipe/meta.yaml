@@ -19,10 +19,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3
+    - python
     - setuptools
     - pytest-runner
   run:
+    - python
     - pygments >=2.1.3
     - six >=1.7.0
 
