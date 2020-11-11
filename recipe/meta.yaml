@@ -10,7 +10,7 @@ source:
   sha256: dea3f29ccd082a9d833595c72a28f8e2c4626a79931a17a3e5019ee2dd6d18b9
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - scif=scif.client:main
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
